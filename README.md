@@ -1,11 +1,9 @@
-# SmartBrain-api - v2
-Final project for ZTM course
 
 1. Clone this repo
 2. Run `npm install`
-3. Run `npm start`
-4. You must add your own API key in the `controllers/image.js` file to connect to Clarifai API
-5. Add your own database credentials to `server.js` line 12
+4. You must add your own API key to .env_EDIT_THIS_FILE. Note once you've pasted your API key where YOUR-API-KEY-HERE is, you'll need to rename the file to ".env" (NOT ".env_EDIT_THIS_FILE).
+5. Add your own database credentials to `server.js`. Note this is currently being hosted on Heroku, so you'll need to add credentials properly, including overwriting "connection" on line 13.
+6. Run `npm start`
 
 You can grab Clarifai API key [here](https://www.clarifai.com/)
 
